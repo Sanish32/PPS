@@ -3,8 +3,12 @@
 
 ### Part 1: Command Line  
 To know the logged-in user: Type `whoami` <br />
-To know the working directory: Type `pwd` or `cd $WRKDIR`
+To know the working directory: Type `pwd` or `cd $WRKDIR` <br />
+To create a file: Type `vim practice.c` or `touch practice.c`. Note: `vim` and `touch` also works on different file extensions or different type of files. <br />
+To know if the file exists: Type `ls | grep *.c` `ls | grep practice.c` or `find . --name practice.c` or `locate practice.c` <br />
 
-To create a file: Type `vim practice.c` or `touch practice.c`. Note: `vim` and `touch` also works on different file extensions or different type of files.
+#### Things to add on:
+Explain sbatch and srun <br />
+
 
 
