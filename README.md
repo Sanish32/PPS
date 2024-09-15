@@ -9,6 +9,10 @@ To know if the file exists: Type `ls | grep *.c` `ls | grep practice.c` or `find
 
 #### Things to add on:
 Explain sbatch and srun <br />
+`sbatch --account=courses --partition=courses practice.sh`
+`less +F slurm-'batch_no'.out`, ctrl+c + q(or anything to get out)
+in vim, insert mode, 
+non-insert mode, `u` to undo, :q to quit, :wq to save and exit
 
 
 
