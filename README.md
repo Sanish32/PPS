@@ -1,5 +1,5 @@
 # Terminal-Command
-## Motivation: As the technologies are expanding ever before, it has been hard for humans to keep up their learnings over the long period of time. This is every small learning about the course 'Programming Parallel Supercomputers'. 
+## Motivation: Technicalities during 'Programming Parallel Supercomputers' course and command line arrguments. 
 
 ### Part 1: Command Line  
 To know the logged-in user: Type `whoami` <br />
