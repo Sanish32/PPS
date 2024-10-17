@@ -1,5 +1,5 @@
 # Terminal-Command
-## Motivation: Technicalities during 'Programming Parallel Supercomputers' course and command line arrguments. 
+## Motivation: Technicalities during 'Programming Parallel Supercomputers (PPS)' course and command line arrguments. 
 
 ### Part 1: Command Line  
 To know the logged-in user: Type `whoami` <br />
