@@ -19,4 +19,6 @@ non-insert mode, `u` to undo, :q to quit, :wq to save and exit
 ### Batch Script:
 --ntasks-per-node means maximum number of tasks to be run and this will be default. However, if --ntasks is included, then it will override the --ntasks-per-node. So, in total --ntasks will be run regardless of number of nodes reserved for the code. <br />
 
-periodic = {1,0} means wrapping around vertically (up-down) but not horizontally (left-right) while {0,1} means wrapping around horizontally (left-right) but not vertically (up-down).
+periodic = {1,0} means wrapping around vertically (up-down) but not horizontally (left-right) while {0,1} means wrapping around horizontally (left-right) but not vertically (up-down). <br />
+
+MPI_Cart_shift(my_new_comm, 0, 1, &up, &down) means that I am finding the neighbour 1 step from the current process in x-axis/direction (row-wise indicated by 0 in the second argument). <br />
