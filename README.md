@@ -17,6 +17,6 @@ non-insert mode, `u` to undo, :q to quit, :wq to save and exit
 
 
 ### Batch Script:
-
+--ntasks-per-node means maximum number of tasks to be run and this will be default. However, if --ntasks is included, then it will override the --ntasks-per-node. So, in total --ntasks will be run regardless of number of nodes reserved for the code.
 
 
